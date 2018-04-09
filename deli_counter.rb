@@ -12,7 +12,7 @@ def line(deli)
         combination = "#{number}. #{customers}"
         total << combination
       end
-      total.join
+      total = total.join (" ")
       puts "The line is currently: #{total}"
     end
 end
