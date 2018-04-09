@@ -27,4 +27,6 @@ end
 def now_serving(deli)
   if deli.size == 0
     puts "There is nobody waiting to be served!"
+  else
+  end
 end
