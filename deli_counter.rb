@@ -9,10 +9,10 @@ def line(deli)
       total = Array.new
       deli.each_with_index do |customers, index|
         index += 1
-        combination = "#{index}. #{customers}"
+        combination = " #{index}. #{customers}"
         total << combination
       end
       total = total.join
-      puts "The line is currently : #{total}."
+      puts "The line is currently: #{total}."
     end
 end
