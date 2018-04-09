@@ -13,6 +13,5 @@ def line(deli)
         total << combination
       end
       total.join (" ")
-      puts "The line is currently: #{total}"
     end
 end
