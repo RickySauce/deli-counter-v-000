@@ -19,4 +19,8 @@ end
 
 def take_a_number(deli, name)
   deli << name
+  customer = deli.last
+  number = deli.last_index + 1
+    
+  puts "Welcome, #{customer}. You are number #{number}"
 end
