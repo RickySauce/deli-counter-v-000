@@ -29,7 +29,7 @@ def now_serving(deli)
     puts "There is nobody waiting to be served!"
   else
     deli.first = first_customer
-    puts "Currently serving #{first_customer}"    
+    puts "Currently serving #{first_customer}"
     deli.shift
   end
 end
