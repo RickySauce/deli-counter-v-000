@@ -13,6 +13,6 @@ def line(deli)
         total << combination
       end
       total = total.join
-      puts "The line is currently: #{total}."
+      puts "The line is currently:#{total}."
     end
 end
