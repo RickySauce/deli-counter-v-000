@@ -7,7 +7,7 @@ def line(deli)
       puts "The line is currently empty."
     else
       total = Array.new
-      deli.each_with_index do |customers,index|
+      deli.each_with_index do |customers, index|
         number = index + 1
         combination = "#{number}. #{customers}"
         total << combination
