@@ -9,5 +9,6 @@ def line(deli)
       deli.each_with_index do |customers,index|
         number = deli[index] + 1
         puts "The line is currently: #{number}. #{customers}"
+      end
     end
 end
