@@ -23,3 +23,6 @@ def take_a_number(deli, name)
   number = deli.find_index(customer) + 1
   puts "Welcome, #{customer}. You are number #{number} in line."
 end
+
+def now_serving(deli)
+end
