@@ -21,6 +21,5 @@ def take_a_number(deli, name)
   deli << name
   customer = deli.last
   number = deli.find_index(customer) + 1
-
   puts "Welcome, #{customer}. You are number #{number} in line."
 end
