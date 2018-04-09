@@ -16,3 +16,6 @@ def line(deli)
       puts "The line is currently:#{total}"
     end
 end
+
+def take_a_number(deli)
+end
