@@ -8,6 +8,7 @@ def line(deli)
     else
       total = Array.new
       deli.each_with_index do |customers, index|
+        index += 1
         combination = "#{index}. #{customers}"
         total << combination
       end
